@@ -94,7 +94,7 @@ st.markdown("""
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("combined_df.csv")
+    return pd.read_csv("https://raw.githubusercontent.com/M-FATEH/Streamlit/main/combined_df.csv")
 
 df = load_data()
 
